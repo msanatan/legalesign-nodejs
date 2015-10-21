@@ -1,0 +1,36 @@
+{
+  "name": "legalesign",
+  "version": "0.0.0",
+  "description": "Legalesign Node.js Helper Library",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "engines": {
+    "node": ">= 0.10.35"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/msanatan/legalesign-nodejs.git"
+  },
+  "keywords": [
+    "legalesign",
+    "esignatures"
+  ],
+  "author": "Marcus Sanatan <msanatan@gmail.com> (http://msanatan.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/msanatan/legalesign-nodejs/issues"
+  },
+  "homepage": "https://legalesign.com",
+  "dependencies": {
+    "request": "^2.65.0"
+  },
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3"
+  }
+}
