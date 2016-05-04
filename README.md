@@ -92,8 +92,8 @@ var params = {
   // Either set the text
   text = '',
   // OR the PDF to use
-  templatePDF = '' // This is a Resource URI,
-  pdfText = {} // A mapping of labels and values
+  templatepdf = '' // This is a Resource URI,
+  pdftext = {} // A mapping of labels and values
 };
 var doc1 = new legalesign.Document(params);
 
