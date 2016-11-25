@@ -1,6 +1,6 @@
 {
   "name": "legalesign",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Legalesign Node.js Helper Library",
   "main": "index.js",
   "directories": {
@@ -31,6 +31,7 @@
   },
   "devDependencies": {
     "chai": "^3.3.0",
-    "mocha": "^2.3.3"
+    "mocha": "^2.3.3",
+    "sinon": "1.17.6"
   }
 }
